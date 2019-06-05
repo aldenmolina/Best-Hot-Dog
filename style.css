@@ -43,19 +43,49 @@
 }
 
 /* Section: Intro */
+#intro-container {
+    background: url("Images/hero.jpg") no-repeat center center/cover;
+    height: 100vh;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    color: white;
 }
 
+.intro-heading i {
+    font-size: 3.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name h2 {
+    margin: 0;
+
+}
 
 .intro-link {
-    display: inline-block;
-    margin: auto;
+    margin: 0 auto;
     padding: 0.5rem 1rem;
     background: #2B6378;
-    color: white;
     border-radius: 3px;
+}
+
+.intro-link:hover {
+    background: rgb(52, 121, 146);
+    cursor: pointer;
 }
