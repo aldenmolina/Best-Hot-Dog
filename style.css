@@ -75,13 +75,17 @@
 
 .logo-name h2 {
     margin: 0;
+}
 
+.logo-name-2 {
+    font-size: 1.2rem;
 }
 
 .intro-link {
     margin: 0 auto;
     padding: 0.5rem 1rem;
     background: #2B6378;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
     border-radius: 3px;
 }
 
@@ -89,3 +93,27 @@
     background: rgb(52, 121, 146);
     cursor: pointer;
 }
+
+/* Section: Menu */
+.menu {
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+    border-radius: 3px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list h3 {
+    padding: 1rem 0;
+    border-top: 1px dotted rgba(0,0,0,0.2);
+}
+
+.hot-dogs {
+    padding: 0 1rem;
+}
+
+    
