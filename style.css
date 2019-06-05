@@ -82,6 +82,8 @@
 }
 
 .intro-link {
+    text-decoration: none;
+    color: white;
     margin: 0 auto;
     padding: 0.5rem 1rem;
     background: #2B6378;
@@ -91,8 +93,18 @@
 
 .intro-link:hover {
     background: rgb(52, 121, 146);
-    cursor: pointer;
 }
+
+/* Section: About Us */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 2rem;
+}
+
 
 /* Section: Menu */
 .menu {
@@ -116,4 +128,13 @@
     padding: 0 1rem;
 }
 
+/* Section: Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 2rem;
+}
     
