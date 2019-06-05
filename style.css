@@ -1,3 +1,10 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); 
+
+/* Whole */
+* {
+    font-family: "Raleway", sans-serif;
+}
 /* Hamburger */
 .hamburger {
     background: rgba(0,0,0,0.7);
@@ -5,9 +12,9 @@
 }
 
 .burger-line {
+    display: block;
     width: 2rem;
     height: 4px;
-    display: block;
     background: white;
     margin: 0.5rem auto;
     transition: all 0.3s ease-in-out;
@@ -25,3 +32,30 @@
     transform: translateY(-12px) rotate(-45deg);
 }
 
+/* NavBar */
+.nav-list {
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+/* Section: Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+.intro-link {
+    display: inline-block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    background: #2B6378;
+    color: white;
+    border-radius: 3px;
+}
