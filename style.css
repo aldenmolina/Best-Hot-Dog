@@ -46,6 +46,8 @@
 #intro-container {
     background: url("Images/hero.jpg") no-repeat center center/cover;
     height: 100vh;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    border-radius: 3px;
 }
 
 .intro {
@@ -107,8 +109,16 @@
 
 
 /* Section: Menu */
+#menu-container {
+    background: #2B6378;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+    border-radius: 3px;
+}
+
 .menu {
-    margin: 2rem;
+    background: white;
+    margin: 1rem;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     border-radius: 3px;
