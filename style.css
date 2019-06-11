@@ -78,7 +78,7 @@
 #intro-container {
     background: url("Images/dog.jpg") no-repeat center center/cover;
     height: 100vh;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     border-radius: 3px;
 }
 
@@ -127,7 +127,7 @@
     margin: 0 auto;
     padding: 0.5rem 1rem;
     background: #2B6378;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     border-radius: 3px;
 }
 
@@ -139,6 +139,8 @@
 
 /* Section: Menu */
 #menu-container {
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     padding: 1rem;
 }
 
@@ -148,6 +150,10 @@
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     border-radius: 3px;
+}
+
+.menu h4 {
+    margin: 0.5rem;
 }
 
 .menu-header {
@@ -160,13 +166,16 @@
     border-top: 1px dotted rgba(0,0,0,0.2);
 }
 
-.hot-dogs {
+.appetizer, .hot-dogs, .dessert {
     padding: 0 1rem;
 }
+
+
 
 /* Section: About Us */
 #about-container {
     background: url(Images/hero.jpg) no-repeat center center/cover;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     height: 50vh;
 }
 .about-us {
@@ -180,9 +189,14 @@
     height: 100%;
 }
 
+.about-us p {
+    margin: 1rem 3rem;
+}
+
 /* Section: Contact */
 #contact-container {
     background: #2B6378;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
     color: white;
 }
 

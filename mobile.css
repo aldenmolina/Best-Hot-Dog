@@ -1,0 +1,39 @@
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 0 15rem;
+    }
+
+    /* NavBar */
+    .navbar {
+        display: none;
+    }
+
+    .dropdown-menu {
+        transform: scale(1);
+        position: unset;
+        background: white;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+        height: unset;
+        width: unset;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list a {
+        font-size: 1rem;
+        color: black;
+    }
+
+    /* Section: Intro */
+    #intro-container {
+        height: 50vh;
+    }
+
+    /* Section: Contact */
+    .contact {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
