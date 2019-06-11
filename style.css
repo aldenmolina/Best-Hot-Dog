@@ -4,6 +4,8 @@
 /* Whole */
 * {
     font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 /* Hamburger */
 .hamburger {
@@ -44,7 +46,7 @@
 
 /* Section: Intro */
 #intro-container {
-    background: url("Images/hero.jpg") no-repeat center center/cover;
+    background: url("Images/dog.jpg") no-repeat center center/cover;
     height: 100vh;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
     border-radius: 3px;
@@ -61,7 +63,7 @@
     color: white;
 }
 
-.intro-heading i {
+.logo i {
     font-size: 3.5rem;
 }
 
@@ -97,23 +99,11 @@
     background: rgb(52, 121, 146);
 }
 
-/* Section: About Us */
-.about-us {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 5rem 2rem;
-}
 
 
 /* Section: Menu */
 #menu-container {
-    background: #2B6378;
     padding: 1rem;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
-    border-radius: 3px;
 }
 
 .menu {
@@ -138,13 +128,38 @@
     padding: 0 1rem;
 }
 
+/* Section: About Us */
+#about-container {
+    background: url(Images/hero.jpg) no-repeat center center/cover;
+    height: 50vh;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    height: 100%;
+}
+
 /* Section: Contact */
+#contact-container {
+    background: #2B6378;
+    color: white;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5rem 2rem;
+    padding: 5rem 0;
 }
-    
+
+.social a {
+    font-size: 1.5rem;
+    color: white;
+}
