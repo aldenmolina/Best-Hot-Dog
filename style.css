@@ -9,8 +9,10 @@
 }
 /* Hamburger */
 .hamburger {
+    position: absolute;
     background: rgba(0,0,0,0.7);
-    padding: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .burger-line {
@@ -34,14 +36,33 @@
     transform: translateY(-12px) rotate(-45deg);
 }
 
+
 /* NavBar */
+.dropdown-menu {
+    display: none;
+}
+
 .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
     margin: 0;
     padding: 0;
 }
+
 .nav-list li {
     list-style: none;
     margin: 0.5rem;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
 }
 
 /* Section: Intro */
